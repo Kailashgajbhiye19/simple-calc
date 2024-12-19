@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Simple calculator</title>
+  
+  
+  
+
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body style="background-color: black">
+  <center>
+    <div class="screen">
+      <input type="tel" placeholder="Enter your first number" id="FirstBox"><br><br>
+      <input type="tel" placeholder="Enter your second number" id="SecondBox">
+      <br><br>
+      <button onclick="AddNum()" value="AddNum" name="AddNum">+</button>
+      
+      <button onclick="SubNum()" value="SubNum" name="SubNum">-</button>
+      
+      <button onclick="MulNum()" value="AddNum" name="MulNum">*</button>
+      
+      <button onclick="DivNum()" value="AddNum" name="DivNum">/</button>
+      
+      <button onclick="powNum()" value="AddNum" name="PowNum">^</button>
+      
+      <h1 id="result" style="color: white"></h1>
+      
+    </div>
+  </center>
+  
+  <script src="main.js"></script>
+</body>
+</html>
